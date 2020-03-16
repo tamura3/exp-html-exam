@@ -80,14 +80,18 @@ aside{
   }
   footer{
     background: #666666;
-    height: 50px;
+    height: 150px;
+    padding: 5px;
     form{
       @include flex;
       .inputBox{
         width: calc(100% - 120px);
+        // height: ;
       }
       .btn{
         width: 80px;
+        padding: 20px;
+        margin-left: 5px;
       }
     }
   }
